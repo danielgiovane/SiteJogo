@@ -1,0 +1,90 @@
+/*Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+img{max-width: 100%;}
+ul{list-style: none;}
+a{text-decoration: none;}
+h2{font-size: 1.5rem; color: #333;}
+h3{padding: 0;}
+p{font-size: 1rem; color: #777;}
+
+/*Cabecalho*/
+
+.cabecalho{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    float: left;
+    padding: 20px 5%;
+    background-color: #212121;
+    box-shadow: -1px 9px 5px -1px rgba(0,0,0,0.25); 
+    z-index: 1;
+}
+.titulo a{
+    float: left;
+    font-weight: bold;
+    color: white;
+    font-size: 2.5rem;
+   
+}
+
+
+.cabecalho .btn{
+    width: 10%;
+    height: 60px;
+    float: right;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+   
+}
+
+
+.cabecalho .btn:hover{
+   background-color: rgb(59, 172, 59);
+}
+
+/*cabecalho nav-menu*/
+.cabecalho .menu{
+    padding-left: 15%;
+    padding-top: 20px;
+}
+
+.cabecalho .menu li a:hover{
+    color: rgb(54, 165, 54);
+}
+
+.menu li{
+    float: left;
+   
+}
+
+.menu li a{
+    color: #9d9d9d;
+    margin-right:25px ;  
+}
+/*main-principal*/
+
+main .principal{
+ 
+}
+
+
+.conteudo{
+  margin-top: 110px;
+}
+
+.conteudo p{
+    color: #212121;
+}
