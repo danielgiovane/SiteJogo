@@ -59,6 +59,7 @@ body{
 .cabecalho .menu ul .btn{
     background-color: green;
     border: none;
+    color: #ddd;
     font-size: 16px;
     font-weight: bold;
     border-radius: 5px;
@@ -86,12 +87,51 @@ body{
 .principal{
     grid-area: principal;
     height: calc(100% - 180px);
-    background-color: #eee;
+    background-color: white;
+}
+
+section.como-jogar{
+    
+    margin: 20px 20px; 
+    background-color: white;   
+}
+
+div.header-como-jogar{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+div.header-como-jogar h2 a{
+    color: #c93a16;
+}
+
+div.descricao-como-jogar p{
+    display: flex;
+    padding: 0 20px;
+}
+
+div.img-como-jogar img{
+    height: 200px;
+    width: 200px;
+    padding-top: 20px;
+    margin-left: 42px;
+}
+
+
+div.title-sobreNos{
+    display: flex;
+    color: #c93a16;
+   
+    justify-content: center;
+    margin-top: 10vh;
+    
 }
 
 div .header .img{
     height: 130px;
     width: 130px;
+
 }
 
 .container{
@@ -99,11 +139,8 @@ div .header .img{
     align-items: center;
     justify-content: space-around;
     height: 45vh;
-    margin-top: 40px;
     padding: 0 20px;
-    background-color: #945a4b;
-   
-    
+    background-color: #ddd ;
 }
 
 .card-container{
@@ -161,40 +198,28 @@ div .header .img{
     margin: 20px 30px;
 }
 
-section.como-jogar{
-    
-    margin: 20px 20px; 
-    background-color: #eee;
-    
-}
-
-div.header-como-jogar{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 10px;
-}
-
-div.header-como-jogar h2 a{
-    color: #c93a16;
-}
-
-div.descricao-como-jogar p{
-    display: flex;
-    padding: 0 20px;
-}
-
-div.img-como-jogar img{
-    height: 200px;
-    width: 200px;
-    padding-top: 20px;
-    margin-left: 42px;
-}
 
 div.contato{
-border: 1px solid red;
-display: flex;
-flex-direction: column;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 20px;
 }
+
+div.contato .header-contato h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+div.contato .descricao-contato{
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px;
+}
+
 
 
 
